@@ -1,8 +1,6 @@
 package com.dimik.dimikspring.entity;
 
-
 import jakarta.persistence.*;
-
 import java.util.List;
 
 @Entity

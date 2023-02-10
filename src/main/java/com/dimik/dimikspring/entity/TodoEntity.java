@@ -12,8 +12,6 @@ public class TodoEntity {
     private Boolean completed;
     private String description;
 
-
-
     @ManyToOne
     @JoinColumn(name = "user_id")
     private UserEntity user;
@@ -61,4 +59,3 @@ public class TodoEntity {
         this.description = description;
     }
 }
-

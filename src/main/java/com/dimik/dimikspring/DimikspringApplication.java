@@ -9,5 +9,4 @@ public class DimikspringApplication {
     public static void main(String[] args) {
         SpringApplication.run(DimikspringApplication.class, args);
     }
-
 }

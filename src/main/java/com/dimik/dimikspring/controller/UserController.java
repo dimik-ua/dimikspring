@@ -3,7 +3,6 @@ package com.dimik.dimikspring.controller;
 import com.dimik.dimikspring.entity.UserEntity;
 import com.dimik.dimikspring.exception.UserAlreadyExistException;
 import com.dimik.dimikspring.exception.UserNotFoundException;
-import com.dimik.dimikspring.repository.UserRepo;
 import com.dimik.dimikspring.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

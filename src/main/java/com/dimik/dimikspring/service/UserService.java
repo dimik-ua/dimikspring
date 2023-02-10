@@ -6,7 +6,6 @@ import com.dimik.dimikspring.exception.UserNotFoundException;
 import com.dimik.dimikspring.model.User;
 import com.dimik.dimikspring.repository.UserRepo;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 @Service

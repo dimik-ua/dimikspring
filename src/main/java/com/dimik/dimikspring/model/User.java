@@ -1,7 +1,6 @@
 package com.dimik.dimikspring.model;
 
 import com.dimik.dimikspring.entity.UserEntity;
-
 import java.util.List;
 import java.util.stream.Collectors;
 
