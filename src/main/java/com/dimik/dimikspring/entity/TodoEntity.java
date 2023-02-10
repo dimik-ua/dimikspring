@@ -3,12 +3,16 @@ package com.dimik.dimikspring.entity;
 import jakarta.persistence.*;
 
 @Entity
+@Table(name = "todo")
 public class TodoEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String title;
     private Boolean completed;
+    private String description;
+
+
 
     @ManyToOne
     @JoinColumn(name = "user_id")
@@ -48,4 +52,13 @@ public class TodoEntity {
     public void setUser(UserEntity user) {
         this.user = user;
     }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
 }
+
